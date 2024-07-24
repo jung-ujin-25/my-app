@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import koreanize-matplotlib
+import koreanize_matplotlib
 
 # 데이터 로드
 df = pd.read_csv('/mnt/data/202406_202406_연령별인구현황_월간.csv', encoding='euc-kr')
